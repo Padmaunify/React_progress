@@ -13,15 +13,13 @@ function App() {
       <Profile
       name="xyz"
      profession="scientist"
-      awards={awardss}
-      discovery="abc"
-      > </Profile>
-      <Profile>
-        ame="nmh"
+      awards="5"
+      discovery="abc"/>
+      <Profile
+      name="nmh"
      profession="scientist"
-      awards=9
-      discovery="svsbbwb"
-      </Profile>
+      awards="9"
+      discovery="svsbbwb"/>
 
     </div>
   )
