@@ -4,23 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Congratulations from './components/first_comp'
 import Profile from './components/prop'
+import Clock from './components/broken_lock'
+import Generator from './components/InspirationGenerator'
+import FancyText from './components/fancyText'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div>
-      <Profile
-      name="xyz"
-     profession="scientist"
-      awards="5"
-      discovery="abc"/>
-      <Profile
-      name="nmh"
-     profession="scientist"
-      awards="9"
-      discovery="svsbbwb"/>
 
+      <FancyText title text="Inspire Me"/>
+      <Generator/>
     </div>
   )
 }
